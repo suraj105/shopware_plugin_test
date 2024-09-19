@@ -4,15 +4,15 @@
     <entries>
         <entry>
             <name>Test Tab</name>
-            <label lang="en">Test Tab</label>
-            <label lang="de">Test Tab</label>
+            <label lang="en">Birthday Checker</label>
+            <label lang="de">Geburtstag Prüfer</label>
             <controller>MyCustomTab</controller>
             <action>index</action>
             <class>sprite-application-block</class>
             <parent identifiedBy="controller">Content</parent>
             <onclick>
                 Shopware.ModuleManager.createSimplifiedModule("MyCustomTab", {
-                "title": "Test Tab",
+                "title": "Birthday Checker",
                 "width": "800px",
                 "iconCls": "sprite-application-block"
                 })
