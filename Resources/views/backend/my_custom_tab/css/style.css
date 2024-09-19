@@ -6,20 +6,34 @@
     border: 1px solid #ddd;
 }
 
-/* Styling for the button */
-#showUserDataBtn {
+/* Styling for both buttons */
+button {
     margin-bottom: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-#showUserDataBtn:hover {
+/* Styling for the "Show All Users" button */
+#showAllUsersBtn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#showAllUsersBtn:hover {
     background-color: #0056b3;
+}
+
+/* Styling for the "Show Birthday Users" button */
+#showBirthdayUsersBtn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#showBirthdayUsersBtn:hover {
+    background-color: #218838;
 }
 
 /* Table styling */

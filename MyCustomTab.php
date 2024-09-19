@@ -3,7 +3,6 @@
 namespace MyCustomTab;
 
 use Shopware\Components\Plugin;
-use Shopware\Components\Plugin\Context\UpdateContext;
 
 
 class MyCustomTab extends Plugin

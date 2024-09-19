@@ -4,11 +4,14 @@
             <h1 class="panel-title">Customer's Birthday Information</h1>
         </div>
         <div class="panel-body">
-            <!-- Button to show the user data -->
-            <button id="showUserDataBtn" class="btn btn-primary">Check Birthday</button>
+            <!-- Button to show all users and highlight birthdays -->
+            <button id="showAllUsersBtn" class="btn btn-primary">Show All Users</button>
 
-            <!-- Table to display all user information, initially hidden -->
-            <div id="userDataTable" style="display: none;">
+            <!-- Button to show only users with birthdays today -->
+            <button id="showBirthdayUsersBtn" class="btn btn-success">Show Birthday Users</button>
+
+            <!-- Table to display user information, initially hidden -->
+            <div id="userDataTable" style="display: none; margin-top: 20px;">
                 <table class="table table-striped">
                     <thead>
                     <tr>
